@@ -3,6 +3,7 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -19,29 +20,69 @@
           "type": "buttons",
           "settings": {
           }
+        },
+        "local_delivery_pickup_se_cart_block_M8JxPe": {
+          "type": "shopify:\/\/apps\/local-delivery-pickup-se\/blocks\/cart-block\/2eb39888-20d1-47c4-960f-ad05f2e225b3",
+          "settings": {
+            "lmd_base_color": "#868686",
+            "lmd_slot_text_color": "#000000",
+            "lmd_slot_icon_color": "transparent",
+            "lmd_btn_color": "#000000",
+            "lmd_text_color": "#ffffff",
+            "lmd_calender_color": "#ffffff",
+            "lmd_calender_text_color": "#000000",
+            "lmd_calender_select_color": "#000000",
+            "lmd_calender_text_select_color": "#ffffff",
+            "sclmd_drop_shadow": false,
+            "lmd_calender_drop_shadow_color": "#999999",
+            "lmd_enable_local": true,
+            "local_delivery_method": "Local Delivery",
+            "lmd_enable_pickup": true,
+            "store_pickup_method": "Store Pickup",
+            "lmd_enable_shipping": true,
+            "standard_shipping_method": "Standard Shippping",
+            "sclmd_express_checkout": false,
+            "sclmd_target_id": "",
+            "sclmd_fill_pickup_address": true,
+            "sclmd_location_pop_up": false
+          }
         }
       },
       "block_order": [
         "subtotal",
-        "buttons"
-      ]
+        "buttons",
+        "local_delivery_pickup_se_cart_block_M8JxPe"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 4,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "full_width": false,
         "show_view_all": true,
-        "swipe_on_mobile": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
         "image_ratio": "square",
+        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
